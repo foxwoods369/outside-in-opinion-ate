@@ -1,34 +1,9 @@
 # opinion-ate
 
+A dummy app following outsidein.dev for reviewing dishes at different restaurants
+
+Production: https://foxwoods-opinion-ate.netlify.app
+
 ## Project setup
-```
-yarn install
-```
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Run your unit tests
-```
-yarn test:unit
-```
-
-### Run your end-to-end tests
-```
-yarn test:e2e
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Dependencies are installed with `yarn`, *not* `npm`.
