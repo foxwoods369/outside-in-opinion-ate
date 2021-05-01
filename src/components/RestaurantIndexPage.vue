@@ -1,5 +1,6 @@
 <template>
-  <div id="app">
+  <div>
+    <h1>Restaurants</h1>
     <RestaurantList />
   </div>
 </template>
@@ -8,7 +9,7 @@
 import RestaurantList from '@/components/RestaurantList';
 
 export default {
-  name: 'App',
+  name: 'RestaurantIndexPage',
   components: {RestaurantList},
 };
 </script>
