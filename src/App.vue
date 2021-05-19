@@ -1,14 +1,14 @@
 <template>
   <div id="app">
-    <RestaurantList />
+    <RestaurantIndexPage />
   </div>
 </template>
 
 <script>
-import RestaurantList from '@/components/RestaurantList';
+import RestaurantIndexPage from '@/components/RestaurantIndexPage';
 
 export default {
   name: 'App',
-  components: {RestaurantList},
+  components: {RestaurantIndexPage},
 };
 </script>
