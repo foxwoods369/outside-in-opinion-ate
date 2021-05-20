@@ -1,4 +1,4 @@
-import apiKey from '../../../apikey';
+import {apiKey} from '../../../apikey';
 
 describe('Listing Restaurants', () => {
   it('shows restaurants from the server', () => {

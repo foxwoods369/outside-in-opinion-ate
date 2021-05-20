@@ -15,6 +15,8 @@ module.exports = (on, config) => {
   //  watchOptions: {}
   // }))
 
+  require('cypress-log-to-output').install(on);
+
   return Object.assign({}, config, {
     fixturesFolder: 'tests/e2e/fixtures',
     integrationFolder: 'tests/e2e/specs',
